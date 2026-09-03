@@ -24,4 +24,9 @@ public class Ej1Controller : ControllerBase
             persona3.GetSaludo()
         };
     }
+    [HttpGet("test")]
+    public IActionResult Test()
+    {
+        return Ok("Hello, World");
+    }
 }
